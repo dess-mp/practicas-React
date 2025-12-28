@@ -42,9 +42,7 @@ myNumber.forEach(function (value) {
 })
 
 // FUNCIÓN FLECHA
-myNumber.forEach( (value) => {
-    console.log( value );
-})
+myNumber.forEach( (value) => console.log( value ) );
 
 // FUNCIÓN FLECHA SIMPLIFICADA
 myNumber.forEach(console.log);
