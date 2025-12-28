@@ -5,7 +5,11 @@ import './style.css'
 // import './bases/04-arrays'
 // import './bases/05-functions'
 // import './bases/06-obj-destructuring'
-import './bases/07-array-destructuring'
+// import './bases/07-array-destructuring'
+// import './bases/tarea-destructuring'
+// import './bases/08-imp-exp'
+import { getHeroesByOwner } from './bases/tarea-imp-exp';
+import { Owner } from './data/heroes.data';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -13,3 +17,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
+console.log( getHeroesByOwner(Owner.DC) );
